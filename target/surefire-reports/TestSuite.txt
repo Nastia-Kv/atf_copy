@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 19.496 sec <<< FAILURE! - in TestSuite
+testMethod2(com.lohika.atf.tests.SecondTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.lohika.atf.core.web.pages.LoginPage.load(LoginPage.java:20)
+	at com.lohika.atf.core.web.pages.LoginPage.loadAsAnonymousUser(LoginPage.java:84)
+	at com.lohika.atf.tests.SecondTest.testMethod2(SecondTest.java:14)
+

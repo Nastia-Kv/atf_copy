@@ -1,0 +1,18 @@
+environments:
+
+  local: 
+    scheme: https://
+    host: www.goodreads.com/
+ 
+  development:
+    scheme: https://
+    host: www.goodreads.com/
+
+  test:
+    scheme: https://
+    host: www.goodreads.com/
+
+  production:
+    scheme: https://
+    host: www.goodreads.com/
+ 
